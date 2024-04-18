@@ -43,7 +43,9 @@ nav img {
     text-align: center;
     text-decoration: none;
     font-weight: bolder;
+   
 }
+
 
 #endnav {
     justify-content: end;
@@ -55,6 +57,11 @@ nav img {
     width: 50%;
     font-weight: bold;
     font-size: medium;
+    transition-property: background-color;
+    transition-duration: 5s;
+}
+.login :hover{
+    background-color: rgb(169, 250, 135);
 }
 .homeimg{
     display: flex;
@@ -111,7 +118,7 @@ nav img {
 }
 .old1p1 img{
     margin: 20px;
-    width: 70%;
+    width: 60%;
 }
 .old1p1 h2 {
     margin-left: 45px;
@@ -122,11 +129,31 @@ nav img {
 }
 .old2p2 img{
     margin: 20px;
-    width: 55%;
+    width: 60%;
 }
 .old2p2 h2 {
     margin-left: 45px;
     width: 70%;
+}
+table{
+    border: 2px solid black;
+    margin: 30px;
+    margin-right: 80px;
+    width: 40%;
+}
+tr{
+    border: 2px solid black;
+}
+td{
+    border: 2px solid black;
+}
+th{
+  
+    text-align:center;
+    border: 2px solid black;
+}
+.oldimg2{
+    width: 50%;
 }
 
 /* Order  */
